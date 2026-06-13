@@ -1,11 +1,11 @@
 # AM Stereo Decoder
 
-A Windows application that decodes AM stereo broadcasts received through SDRuno's IQ OUT facility.
+A Windows application that decodes AM stereo broadcasts through SDRuno's IQ OUT facility.
 
 ## Features
 
 - **C-QUAM** decoding with PLL carrier recovery and stereo matrix
-- **Kahn-Hazeltine ISB** decoding via sideband separation
+- **Kahn-Hazeltine ISB** decoding via sideband separation (novelty only)
 - Win32 GUI with real-time level meters and STEREO indicator
 - Variable bandwidth filter: DX (3 kHz) / Narrow (5 kHz) / Normal (9 kHz) / Wide (15 kHz) / Custom
 - Gain slider (0.1–10.0)
